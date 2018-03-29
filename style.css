@@ -1,0 +1,61 @@
+	/*Forms the blue to lighter blue gradent for the background */
+body {
+		background: linear-gradient(to right, #33ccff 21%, #ccffff 100%);
+		font-family: arial;
+		text-align: center;
+	}
+	/*Creates the white name element in the header */
+	h1 {
+		text-align:center;
+		font-size:30px;
+		color:white;
+		font-family: arial;
+	}
+	/*Use of div element to force padding and centered information on index. */
+	div{
+		text-align:center;
+		padding-left:100px;
+		padding-right:100px;
+	}
+	/* Adds space in between each list element and adds padding so there is breathing room.*/
+	li{
+	margin: 10px 0;
+	padding-left:100px;
+	padding-right:100px;
+		
+	}
+	/*Creates the footer element displayed on every page. */
+	.footer {
+		display: block;
+		left: 0;
+		bottom: 0;
+		position: fixed;
+		width: 100%;
+		text-align:left;
+		background-color: #33ccff;
+		height: 30px;
+		font-size:15px;
+	/*Used to force resume information left. */
+	}
+	div.left {
+		text-align:left;
+	/* Used to modify pre tag used to format resume information.*/	
+	}
+	pre {
+		font-family: arial;
+		font-size:15px;
+		padding-left:150px;
+		padding-right:100px;
+	}
+	/*Adds padding for image tags. */
+	img{
+		padding-left:100px;
+		padding-right:100px;
+	}
+	/*Used to center the table to create the "illusion" of a taskbar */
+	  table.center {
+    margin-left:auto; 
+    margin-right:auto;
+	border-spacing:15px;
+  }
+
